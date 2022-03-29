@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Main {
-
+    void p(){}
     public static void outofmemory() {
         Integer[] error = new Integer[5000 * 500 * 500];
     } //OutOfMemoryError из-за того что у нас огромный массив пытается инициализироваться
